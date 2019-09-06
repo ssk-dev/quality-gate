@@ -4,7 +4,11 @@
   "description": "Linting and cod analysis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint.sass": "sass-lint -v",
+    "lint.sass:fix": "sass-lint-auto-fix --config .sass-lint.yml && sass-lint -v ",
+    "lint.css": "stylelint **/*.css",
+    "lint.js": "standard",
+    "lint.js:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -26,6 +30,10 @@
   "homepage": "https://github.com/ssk-dev/quality-gate#readme",
   "devDependencies": {
     "sass-lint": "^1.13.1",
-    "sass-lint-auto-fix": "^0.17.0"
-  }
+    "sass-lint-auto-fix": "^0.17.0",
+    "standard": "^14.1.0",
+    "stylelint": "^10.1.0",
+    "touch-cli": "0.0.1"
+  },
+  "sasslintConfig": ".sass-lint.yml"
 }
