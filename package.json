@@ -1,0 +1,27 @@
+{
+  "name": "quality-gate",
+  "version": "1.0.0",
+  "description": "Linting and cod analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssk-dev/quality-gate.git"
+  },
+  "keywords": [
+    "lint",
+    "sass",
+    "scss",
+    "javascript",
+    "typescript",
+    "sonarcube"
+  ],
+  "author": "Sebastian Schulze-Khyi",
+  "license": "open",
+  "bugs": {
+    "url": "https://github.com/ssk-dev/quality-gate/issues"
+  },
+  "homepage": "https://github.com/ssk-dev/quality-gate#readme"
+}
