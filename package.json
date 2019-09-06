@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ssk-dev/quality-gate/issues"
   },
-  "homepage": "https://github.com/ssk-dev/quality-gate#readme"
+  "homepage": "https://github.com/ssk-dev/quality-gate#readme",
+  "devDependencies": {
+    "sass-lint": "^1.13.1"
+  }
 }
